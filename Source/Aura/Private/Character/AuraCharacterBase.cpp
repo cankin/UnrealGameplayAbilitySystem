@@ -1,5 +1,7 @@
 #include "Character/AuraCharacterBase.h"
 
+#include "GameFramework/PlayerState.h"
+
 AAuraCharacterBase::AAuraCharacterBase()
 {
 	PrimaryActorTick.bCanEverTick = false;
